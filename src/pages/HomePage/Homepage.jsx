@@ -18,6 +18,7 @@ function Homepage() {
 
   return (
     <div className='flex justify-evenly items-center gap-y-5 w-[100%] h-[100vh]'>
+        <h1 className='text-[30px]'>Quiz Time</h1>
         <div className="w-[45%] h-[90vh] bg-yellow-200 flex flex-col gap-y-4 justify-center items-center rounded-md">
             <Link className='w-[90%] h-[10vh] text-semibold text-[24px] rounded-[12px] bg-white flex justify-center items-center' to='/quiz-page/easy'>Easy Level</Link>
             <Link className='w-[90%] h-[10vh] text-semibold text-[24px] rounded-[12px] bg-white flex justify-center items-center' to='/quiz-page/medium'>Medium Level</Link>
