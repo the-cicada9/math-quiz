@@ -1,0 +1,71 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* .form-input {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border-color: gray;
+  } */
+  
+  .form-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .quiz-container {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .question-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-item {
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    margin-top: 10px;
+  }
+  
+  .option-item {
+    margin-bottom: 5px;
+  }
+  
+  .result-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
